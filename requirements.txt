@@ -1,0 +1,26 @@
+# Flask : Un micro-framework pour créer des applications web. Il permet de définir des routes,
+# gérer des requêtes HTTP, et utiliser des templates pour rendre des pages HTML.
+flask
+
+# Flask-SQLAlchemy : Extension Flask permettant d'intégrer SQLAlchemy pour gérer facilement
+# des bases de données relationnelles en utilisant un ORM (Object-Relational Mapping).
+flask-sqlalchemy
+
+# psycopg2-binary : Une bibliothèque permettant de se connecter à une base de données PostgreSQL.
+# La version "binary" est précompilée pour simplifier l'installation.
+psycopg2-binary
+
+# python-dotenv : Une bibliothèque qui charge les variables d'environnement depuis un fichier `.env`,
+# permettant de garder les informations sensibles (comme les clés API et les mots de passe) hors du code.
+python-dotenv
+
+# werkzeug : Une bibliothèque de bas niveau utilisée par Flask pour gérer les requêtes HTTP,
+# les cookies et d'autres fonctionnalités serveur essentielles.
+werkzeug
+
+
+flask
+flask-sqlalchemy #orm
+psycopg2-binary #connecteur postgre sql
+python-dotenv #pour charger les variables d'environnements
+werkzeug # WSGI qui fourni un serveur dev (flask run) 
